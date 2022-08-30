@@ -9,3 +9,6 @@ The dartboard prefab uses a model from Synty's clubs/bars pack. The controller s
 The dart_table prefab uses models from Synty. The DartTableController.cs script is attached to the prefab. It does require a list of the darts that spawn in on the table; six areprovided. The Button grandchild "InnerButton" calls the ResetDarts() function thatcan be found in DartTableController.cs; this is required for the reset button to work.
 
 The red_dart prefab is a variant of dart. For multiplayer functionality, make sure  red_dart has the "Player Two" boolean checked. The "Thrown" boolean should not be used on either dart variant.
+
+## Note
+Please see the NPC_ReadMe.md file for information on configuring the CPU opponent.
